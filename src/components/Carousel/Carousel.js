@@ -1,8 +1,14 @@
 import React from 'react'
-import 'Carousel.css'
+import './Carousel.css'
 
-export const Carousel = () => {
+const Carousel = () => {
   return (
     <div>Carousel</div>
   )
 }
+
+export default Carousel
+
+
+
+
