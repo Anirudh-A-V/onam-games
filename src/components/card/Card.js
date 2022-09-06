@@ -15,39 +15,33 @@ const Card = (props) => {
   useEffect(() => {
     const setimg = () => {
       switch (game) {
-        case "Gaming Arcade":
+        case "Pookalam":
           setImg(onam_poster);
-          setDesc("Gaming Arcade");
+          setDesc("Pookalam is an intricate and colourful arrangement of flowers laid on the floor.");
           break;
-        case "Web Design":
-          // img = web;
+        case "Pulikkali":
           setImg(onam_poster);
-          setDesc(" A webpage is a brainchild of a good programmer and a creative thinker, and what lies between is your creativity and html skills.")
+          setDesc("Pulikkali is a recreational folk art from the state of Kerala, people dress up as tigers and perform.");
           break;
-        case "Typing Competition":
-          // img = typing;
+        case "Uriyadi":
           setImg(onam_poster);
-          setDesc("Test your typing skils and win a prize. If you can make it to the top you get Rs 1000 >_<")
+          setDesc("In Uriyadi, a player tries to catch a swinging earthen pot.");
           break;
-        case "Bug Smash":
-          // img = bug;
+        case "Vadamvali":
           setImg(onam_poster);
-          setDesc("Bug Smash challenges your hunting capabilities and rewards you well if you prove yourself good.")
+          setDesc("Vadamvali or tug-of-war is played with great enthusiasm all across the State during Onam.")
           break;
-        case "Blind Coding":
-          // img = blind;
+        case "Panjagusthi":
           setImg(onam_poster);
-          setDesc("A programmer works on code without running it until completion. Normally this is a terrible idea but it makes for a very fun challenge.")
+          setDesc("A sport where opponents who face each other with their bent elbows placed on a table and hands firmly gripped, then attempt to force the opponent's hand down to the table.")
           break;
-        case "Cascade Coding":
-          // img = web;
+        case "Kaserakali":
           setImg(onam_poster);
-          setDesc("A team coding event prepared in such a way it would test your coordination skills and ability to adapt to the coding style of your teammate.")
+          setDesc("Play the music and have the players walk around the perimeter of the chair circle. When the music stops, everyone must immediately sit in a chair.")
           break;
-        case "Code Jam":
-          // img = codejam;
+        case "Sundarikku PottuThodu":
           setImg(onam_poster);
-          setDesc("It's high time for you to jam with other programmers. A good programmer is a good debugger, So to survive you need coding as well as debugging crafts.")
+          setDesc("'Sundariykk pottu thodal', is the most popular game where the participant in blindfold have to place a bindi on the forehead of a woman's face drawn on a blackboard.")
           break;
 
         default:

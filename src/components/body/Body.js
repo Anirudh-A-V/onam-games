@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./body.css";
-import drishti from "../../images/drishti-logo.svg";
 import cs from "../../images/AV.svg";
 import Card from "../card/Card";
 import axios from "axios";
@@ -62,9 +61,6 @@ const Body = () => {
         <img src={Onam_logo} className="img img-onam" alt="" />
         {/* <span>DRISHTI 2022</span> */}
         <div className="website-name">
-          {/* <img className="img-sponsor" src={litmus} alt="" />
-          <img className="img-sponsor" src={entri} alt="" />
-          <img className="img-sponsor" src={edgradi} alt="" /> */}
           <span className="website-name-text">ONAM GAMES</span>
         </div>
         <img src={cs} className="img img-av" alt="" />
