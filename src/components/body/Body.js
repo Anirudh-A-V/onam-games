@@ -1,12 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./body.css";
 import drishti from "../../images/drishti-logo.svg";
-import cs from "../../images/cs.svg";
+import cs from "../../images/AV.svg";
 import Card from "../card/Card";
 import axios from "axios";
-import litmus from "../../images/litmus.svg";
-import entri from "../../images/entri.svg";
-import edgradi from "../../images/edgradi.svg";
+import Onam_logo from "../../images/Onam-logo.svg";
 import SimpleSlider from "../slider/Slider";
 
 const Body = () => {
@@ -61,19 +59,20 @@ const Body = () => {
       </div>
 
       <div className="header">
-        <img src={drishti} className="img img-drishti" alt="" />
-        <span>DRISHTI 2022</span>
-        <div className="sponsors">
-          <img className="img-sponsor" src={litmus} alt="" />
+        <img src={Onam_logo} className="img img-onam" alt="" />
+        {/* <span>DRISHTI 2022</span> */}
+        <div className="website-name">
+          {/* <img className="img-sponsor" src={litmus} alt="" />
           <img className="img-sponsor" src={entri} alt="" />
-          <img className="img-sponsor" src={edgradi} alt="" />
+          <img className="img-sponsor" src={edgradi} alt="" /> */}
+          <span className="website-name-text">ONAM GAMES</span>
         </div>
-        <img src={cs} className="img img-cs" alt="" />
+        <img src={cs} className="img img-av" alt="" />
       </div>
       {/* =========== CARDS =========== */}
       <SimpleSlider />
       <div className="cards">
-        <span className="games-title">ONAM  GAMES</span>
+        <span className="games-title">GAMES</span>
         {data.score.map((item) => {
           console.log(item);
           return <Card item={item} />;

@@ -22,9 +22,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   margin: auto;
 }
 
-.header .img-drishti {
-  width: 56px;
-  height: 56px;
+.header .img-onam {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
 }
 
 .header span {
@@ -36,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   top: 98px;
 }
 
-.sponsors {
+.website-name {
   padding: 0px 24px;
   width: 400px;
   display: flex;
@@ -47,6 +48,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
 .img-sponsor {
   width: 96px;
   height: auto;
+}
+
+.website-name>span {
+  width: 100%;
+  height: 27px;
+  font-family: "Friza";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 27px;
+  color: rgb(21, 175, 42);
+  padding-bottom: 100px;
 }
 
 .cards {
@@ -68,7 +81,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
 .cards>span {
   position: absolute;
   top: 0;
-  width: 185px;
+  width: 130px;
   height: 27px;
   font-family: "Friza";
   font-style: normal;
@@ -77,6 +90,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   line-height: 27px;
   color: #000;
   padding-bottom: 100px;
+}
+.img-av{
+  width: 96px;
+  height: auto;
+  border-radius: 50%;
 }
 
 @media (max-width: 525px) {
@@ -90,7 +108,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
     padding: 24px;
   }
 
-  .header .img-drishti {
+  .header .img-onam {
     width: 40px;
     height: 40px;
   }
@@ -111,7 +129,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
     padding: 0;
   }
 
-  .sponsors {
+  .website-name {
     padding: 0px 24px;
     width: 100%;
     display: flex;

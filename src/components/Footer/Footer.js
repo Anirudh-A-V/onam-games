@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+
 import Facebook from '../../icons/Facebook.svg';
 import Facebook_active from '../../icons/Facebook_active.svg';
 import Youtube from '../../icons/Youtube.svg';
@@ -8,8 +9,7 @@ import Instagram from '../../icons/Instagram.svg';
 import Instagram_active from '../../icons/Instagram_active.svg';
 import LinkedIn from '../../icons/LinkedIn.svg';
 import LinkedIn_active from '../../icons/LinkedIn_active.svg';
-// import Map from '../../images/Map.png';
-import Ground_Floor_Final from '../../images/Ground_Floor_Final.png';
+import Map from '../../images/Map.png';
 
 const Footer = () => {
   return (
@@ -27,8 +27,8 @@ const Footer = () => {
               <li className="contacts">&emsp;Nadeem&ensp; +91&nbsp; 9895418183</li>
             </div>
             <div className="map-wrapper">
-              <a href="https://raw.githubusercontent.com/Anirudh-A-V/cs-association.github.io/main/src/images/Map.jpg" target='_blank' rel="noreferrer" className="map-link">
-                <img src={Ground_Floor_Final} alt="Map" className="map" />
+              <a href="https://www.google.com/maps/@8.5441648,76.9053964,17z?hl=en-GB" target='_blank' rel="noreferrer" className="map-link">
+                <img src={Map} alt="Map" className="map" />
               </a>
             </div>
           </div>

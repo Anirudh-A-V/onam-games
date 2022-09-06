@@ -13,7 +13,7 @@
 }
 
 .leaderboard {
-  background: #7b54c7 !important;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(40,193,55,1) 0%, rgba(19,184,85,1) 100%) !important;
 }
 
 .card-details,

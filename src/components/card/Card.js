@@ -1,13 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./card.css";
-import bg from "../../images/bg.svg";
-import cascade_coding from '../../images/cascade_coding.jpeg'
-import blind_coding from '../../images/blind_coding.jpeg'
-import bug_smash from '../../images/bug_smash.jpeg'
-import codejam from '../../images/codejam.jpeg'
-import typing_ninja from '../../images/typing_ninja.jpeg'
-import web_designing from '../../images/web_designing.jpeg'
-import gaming_arcade from '../../images/gaming_arcade.jpg'
+
 import onam_poster from '../../images/onam-poster.jpg'
 
 const Card = (props) => {
