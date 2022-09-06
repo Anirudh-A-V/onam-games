@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Friza";
+  src: url("../../font/Lobster-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Brinnan";
+  src: url("../../font/Roboto-Regular.ttf") format("opentype");
+}
+
+.card {
+  position: relative;
+}
+
+.leaderboard {
+  background: #7b54c7 !important;
+}
+
+.card-details,
+.card,
+.leaderboard {
+  width: 327px;
+  height: 420px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px 50px 60px 60px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 21%, rgba(40, 193, 55, 1) 60%, rgba(19, 184, 85, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#13b855", GradientType=1);
+}
+
+.top {
+  height: calc(100% - 204px);
+  padding: 5px;
+  border: #7408c8 10px;
+}
+
+.top img {
+  height: 100%;
+  width: 317px;
+  object-fit: cover;
+  border-radius: 50px 50px 60px 60px;
+}
+
+.bottom {
+  width: 100%;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.title {
+  font-family: "Briannan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px !important;
+  width: auto;
+  padding: 0 !important;
+  color: #fff;
+  /* line-height: 20px; */
+}
+
+.desc {
+  font-family: "Brinnan";
+  font-style: normal;
+  color: #fff;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  padding: 0 !important;
+  margin-top: 10px !important;
+  height: 80px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.desc::-webkit-scrollbar {
+  display: none;
+}
+
+.bottom>button {
+  width: 295px;
+  height: 56px;
+  background: rgb(185, 246, 173);
+  font-family: "Briannan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  margin-top: 20px;
+  color: #F87D0A;
+  border-radius: 90px 90px 90px 90px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* button:hover {
+  top: calc(4px * -1);
+  left: calc(4px * -1);
+  right: calc(4px * -1);
+  bottom: calc(4px * -1);
+  background: hsl(180, 90%, 50%);
+  text-shadow: 2px 2px hsl(180, 90%, 50%), -2px -2px hsl(60, 90%, 60%);
+  clip-path: var(--clip);
+  animation: glitch 2s infinite;
+  display: none;
+} */
+
+.leaderboard {
+  display: block;
+  position: absolute;
+  top: 0px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s linear, opacity 0.3s linear;
+  color: #fff;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+
+.leaderboard>.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px !important;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.det-title {
+  font-size: 20px !important;
+  margin-bottom: 20px;
+}
+
+.leaderboard table {
+  font-family: "Brinnan";
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  border-spacing: 20px 10px;
+}
+
+.leaderboard .close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  /* padding: 10px; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  left: 45%;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

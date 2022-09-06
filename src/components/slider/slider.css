@@ -1,0 +1,130 @@
+:root{
+  --footer:#6906B7;
+  --slider:#000;
+  --trans:transparent;
+}
+
+.poster-container {
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 4px 1rem -4px #000;
+  margin-top: 35px;
+  /* background-color: var(--trans); */
+  align-items: center;
+  overflow: hidden;
+}
+
+.container h1 {
+  color: #fff;
+}
+
+.poster-cards-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  /* color: var(--trans); */
+  /* background: var(--trans); */
+  padding: 2rem;
+  /* box-shadow: 0 0 1rem #000 inset; */
+  overflow-x: auto;
+  position: relative;
+  overflow: auto;
+
+}
+
+.poster-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.poster-card {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex: 1 0 250px;
+  /* box-shadow: 0 1px 1rem -4px #000; */
+  background: var(--trans);
+  margin: 0.5rem;
+  margin-top: 35px;
+  margin-bottom:35px;
+  overflow: hidden;
+  /* padding-left: 2rem; */
+  transition: all 250ms ease-in-out;
+}
+
+.poster-card img {
+  width: 327px;
+  height: 327px;
+  /* clip-path: polygon(100% 19%, 100% 100%, 0 100%, 0 0, 70% 0); */
+  
+}
+
+.poster-card:hover {
+  box-shadow: 0 4px 1rem -4px transparent;
+  transform: translateY(-3px);
+}
+
+.poster-card-content {
+  padding: 1rem;
+}
+
+.arrows {
+  display: grid;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000;
+  /* font-size: 0.5rem; */
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+.arrow-container {
+  width: 100%;
+  /* background-color: var(--trans); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 16px;
+}
+
+.arrow-set {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+}
+
+
+.arrow-left {
+  grid-area: 1 / 1 / 2 / 2;
+  transform: translateX(10px);
+  cursor: pointer;
+}
+
+.arrow-right {
+  grid-area: 1 / 2 / 2 / 3;
+  transform: translateX(-10px);
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 525px) {
+  .poster-container {
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .poster-cards-container {
+    padding: .5rem;
+  }
+
+  .poster-card {
+    margin: .5rem;
+  }
+}
