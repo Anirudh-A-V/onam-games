@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Friza";
-  src: url("../../font/Lobster-Regular.ttf") format("opentype");
+  src: url(http://localhost:3000/onam-games/static/media/Lobster-Regular.03c38496322925fec242.ttf) format("opentype");
 }
 
 @font-face {
   font-family: "Brinnan";
-  src: url("../../font/Roboto-Regular.ttf") format("opentype");
+  src: url(http://localhost:3000/onam-games/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf) format("opentype");
 }
 
 .card {
@@ -21,23 +21,24 @@
 .leaderboard {
   width: 327px;
   height: 420px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px 50px 60px 60px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 21%, rgba(40, 193, 55, 1) 60%, rgba(19, 184, 85, 1) 100%);
+  /*! box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 20px;
+  /*! background: linear-gradient(180deg, rgba(255, 255, 255, 1) 21%, rgba(40, 193, 55, 1) 60%, rgba(19, 184, 85, 1) 100%); */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#13b855", GradientType=1);
+  background: #bad927;
 }
 
 .top {
   height: calc(100% - 204px);
-  padding: 5px;
+  padding: 24px;
   border: #7408c8 10px;
 }
 
 .top img {
   height: 100%;
-  width: 317px;
+  width: 100%;
   object-fit: cover;
-  border-radius: 50px 50px 60px 60px;
+  border-radius: 20px;
 }
 
 .bottom {
@@ -55,14 +56,14 @@
   font-size: 21px !important;
   width: auto;
   padding: 0 !important;
-  color: #fff;
+  color: #0c5514;
   /* line-height: 20px; */
 }
 
 .desc {
   font-family: "Brinnan";
   font-style: normal;
-  color: #fff;
+  color: #000;
   font-weight: 400 !important;
   font-size: 15px !important;
   padding: 0 !important;
@@ -80,8 +81,8 @@
 .bottom>button {
   width: 295px;
   height: 56px;
-  background: rgb(185, 246, 173);
-  font-family: "Briannan";
+  background: rgb(16, 88, 20);
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;

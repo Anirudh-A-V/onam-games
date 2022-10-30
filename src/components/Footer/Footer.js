@@ -14,7 +14,7 @@ import Map from '../../images/Map.png';
 const Footer = () => {
   return (
     <>
-      <div className="footer" style={{ background: "#E5FF1C" }}>
+      <div className="footer" style={{ background: "rgb(245, 255, 171)" }}>
 
         <div className="footer-content">
 

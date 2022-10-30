@@ -96,9 +96,6 @@
         display: flex;
         flex-direction: column;
         background: rgb(255,255,255);
-        background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(40,193,55,1) 39%, rgba(229,255,28,1) 100%);
-        background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(40,193,55,1) 39%, rgba(229,255,28,1) 100%);
-        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(40,193,55,1) 39%, rgba(229,255,28,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#e5ff1c",GradientType=1);
         padding: 10px;
 

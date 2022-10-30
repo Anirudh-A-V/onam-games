@@ -28,7 +28,7 @@
   /* box-shadow: 0 0 1rem #000 inset; */
   overflow-x: auto;
   position: relative;
-  overflow: auto;
+  overflow: hidden;
 
 }
 

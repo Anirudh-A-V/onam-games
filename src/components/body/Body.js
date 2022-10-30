@@ -66,7 +66,6 @@ const Body = () => {
         <img src={cs} className="img img-av" alt="" />
       </div>
       {/* =========== CARDS =========== */}
-      <SimpleSlider />
       <div className="cards">
         <span className="games-title">GAMES</span>
         {data.score.map((item) => {
@@ -74,6 +73,7 @@ const Body = () => {
           return <Card item={item} />;
         })}
       </div>
+        <SimpleSlider />
     </div>
   );
 };
